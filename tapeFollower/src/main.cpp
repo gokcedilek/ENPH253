@@ -43,13 +43,12 @@ HardwareSerial Serial3 = HardwareSerial(RX3, TX3);
 // #define SMALL_COLLECT_TIME 24
 // #define BIG_COLLECT_TIME 8
 #define RAMP_TIME 15
-<<<<<<< HEAD
 #define SMALL_TURN_TIME 18.3
 #define BIG_COLLECT_TIME 30
 
 #define METHANOS_TURN_TIME 0.7 //for driving past the first 2 pillars, sharp turn
 #define THANOS_TURN_TIME 0.63  // for driving past the first 2 pillars, sharp turn,
-=======
+
 #define SMALL_TURN_TIME_GM 18.3
 #define SMALL_TURN_TIME_BM 14.8
 #define SMALL_COLLECT_TIME_GM 26 //26.8
@@ -60,7 +59,6 @@ HardwareSerial Serial3 = HardwareSerial(RX3, TX3);
 #define THANOS_TURN_TIME_GM 0.7  // for driving past the first 2 pillars, sharp turn
 #define METHANOS_TURN_TIME_BM 0.6
 #define THANOS_TURN_TIME_BM 0.6
->>>>>>> 74ad802c573352f6a0efd54f08d883582e8e4211
 
 float clockFreq = 100000;
 float period = 1000;
